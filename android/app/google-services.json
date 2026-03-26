@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649669426657",
+    "project_id": "asf-futo-app",
+    "storage_bucket": "asf-futo-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649669426657:android:f27cabdfd1283914e126a0",
+        "android_client_info": {
+          "package_name": "com.asfchapter.asf_futo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjEnWS4mHdZ_V0luSDOqbOnq6H4Bw5JFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
