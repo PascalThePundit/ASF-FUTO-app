@@ -3,54 +3,50 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  // --- Brand Primary ---
-  static const Color primary = Color(0xFF1A5276);       // Deep Adventist Blue
-  static const Color primaryLight = Color(0xFF2E86C1);  // Lighter blue
-  static const Color primaryDark = Color(0xFF0D2B3E);   // Darkest blue
+  // ── Brand Blues ──
+  static const Color background     = Color(0xFF060E1E); // Near-black deep blue
+  static const Color surface        = Color(0xFF0D1B2E); // Deep navy surface
+  static const Color surfaceElevated= Color(0xFF112240); // Slightly lighter card
+  static const Color primary        = Color(0xFF1A3A6B); // Adventist blue
+  static const Color primaryLight   = Color(0xFF2E6BC4); // Bright blue accent
 
-  // --- Accent ---
-  static const Color gold = Color(0xFFD4AC0D);          // Gold tick / verified
-  static const Color goldLight = Color(0xFFF9E47C);     // Gold glow
-  static const Color crown = Color(0xFFFFD700);         // Birthday crown
+  // ── Gold Accents ──
+  static const Color gold           = Color(0xFFD4A843); // Main gold
+  static const Color goldLight      = Color(0xFFFFD76B); // Light gold / glow
+  static const Color goldDark       = Color(0xFFA07C20); // Deep gold shadow
+  static const Color crown          = Color(0xFFFFD700); // Birthday crown
 
-  // --- Neutrals ---
-  static const Color white = Color(0xFFFFFFFF);
-  static const Color background = Color(0xFFF4F6F8);    // App background
-  static const Color surface = Color(0xFFFFFFFF);       // Card surface
-  static const Color divider = Color(0xFFE0E6ED);
+  // ── Text ──
+  static const Color textPrimary    = Color(0xFFEFF6FF); // Near white
+  static const Color textSecondary  = Color(0xFF8BAED4); // Muted blue-white
+  static const Color textHint       = Color(0xFF3D5A80); // Very muted
 
-  // --- Text ---
-  static const Color textPrimary = Color(0xFF0D2B3E);
-  static const Color textSecondary = Color(0xFF5D6D7E);
-  static const Color textHint = Color(0xFFAEB6BF);
+  // ── Glass ──
+  static const Color glassWhite     = Color(0x14FFFFFF); // 8% white overlay
+  static const Color glassBorder    = Color(0x26FFFFFF); // 15% white border
+  static const Color glassBlue      = Color(0x1A2E6BC4); // Blue tinted glass
 
-  // --- Chat ---
-  static const Color chatBubbleSent = Color(0xFF1A5276);     // Sent bubble
-  static const Color chatBubbleReceived = Color(0xFFFFFFFF); // Received bubble
-  static const Color chatBackground = Color(0xFFEAF0F6);     // Chat screen bg
+  // ── Status ──
+  static const Color success        = Color(0xFF22C55E);
+  static const Color error          = Color(0xFFEF4444);
+  static const Color warning        = Color(0xFFF59E0B);
 
-  // --- Badge ---
-  static const Color greyTick = Color(0xFF909497);      // Unverified dues
-  static const Color goldTick = Color(0xFFD4AC0D);      // Fully verified
+  // ── Badge ──
+  static const Color greyTick       = Color(0xFF94A3B8);
+  static const Color goldTick       = Color(0xFFD4A843);
 
-  // --- Status ---
-  static const Color success = Color(0xFF1E8449);
-  static const Color error = Color(0xFFC0392B);
-  static const Color warning = Color(0xFFD68910);
-  static const Color info = Color(0xFF2471A3);
+  // ── Chat ──
+  static const Color chatBubbleSent     = Color(0xFF1A3A6B);
+  static const Color chatBubbleReceived = Color(0xFF112240);
+  static const Color chatBackground     = Color(0xFF060E1E);
 
-  // --- Story Ring ---
-  static const Color storyRingActive = Color(0xFF1A5276);
-  static const Color storyRingViewed = Color(0xFFAEB6BF);
+  // ── Story Ring ──
+  static const Color storyRingActive = Color(0xFFD4A843);
+  static const Color storyRingViewed = Color(0xFF3D5A80);
 
-  // --- Sabbath Mode (subtle warm overlay for Sabbath hours) ---
-  static const Color sabbathWarm = Color(0xFFFEF9E7);
-  static const Color sabbathAccent = Color(0xFFF0B27A);
+  // ── Divider ──
+  static const Color divider        = Color(0xFF1A2D4A);
 
-  // --- Dark Theme ---
-  static const Color darkBackground = Color(0xFF0D1B2A);
-  static const Color darkSurface = Color(0xFF152535);
-  static const Color darkDivider = Color(0xFF1F3448);
-  static const Color darkTextPrimary = Color(0xFFEAF0F6);
-  static const Color darkTextSecondary = Color(0xFF85929E);
+  // ── White ──
+  static const Color white          = Color(0xFFFFFFFF);
 }
